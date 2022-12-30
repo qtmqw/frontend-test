@@ -1,0 +1,48 @@
+header {
+  display: flex;
+  margin-top: 4mm;
+  border-bottom: 3px solid black;
+  margin-bottom: 30px;
+}
+
+header div {
+  margin-right: 0;
+  margin-left: auto;
+  margin-top: 1mm;
+}
+
+.space_add{
+  margin-left: 20px;
+}
+
+.sku_add{
+  margin-right: 28px;
+}
+.name_add {
+  margin-right: 15px;
+}
+
+.switch {
+  display: flex;
+}
+
+.switch span {
+  margin-right: 5mm;
+  padding-top: 2mm;
+}
+
+.dvd{
+  margin-top: 20px;
+}
+
+.furniture{
+  margin-top: 20px;
+}
+
+.width{
+  margin-right: 5px;
+}
+
+.book{
+  margin-top: 20px;
+}

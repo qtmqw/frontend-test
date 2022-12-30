@@ -1,0 +1,71 @@
+header {
+  display: flex;
+  margin-top: 4mm;
+  border-bottom: 3px solid black;
+  margin-bottom: 30px;
+}
+
+.space{
+  margin-right: 20px;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+Container{
+  position:relative;
+}
+
+footer {
+  position:absolute;
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+  border-top: 3px solid black;
+  bottom: 0;
+  left: 0;
+}
+
+footer p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.delete-checkbox {
+  position: absolute;
+}
+
+.card {
+  margin: 10px 0 0 10px;
+  flex-grow: 1;
+}
+
+.sku {
+  margin-top: 15px;
+  font-size: large;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.name {
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.price {
+  font-size: large;
+  margin-bottom: 0;
+}
+.size {
+  font-size: large;
+}
+.weight {
+  font-size: large;
+}
+.dimension {
+  font-size: large;
+}
